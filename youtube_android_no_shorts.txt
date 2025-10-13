@@ -1,0 +1,19 @@
+youtube.com## ytd-reel-shelf-renderer.style-scope
+m.youtube.com##ytm-rich-grid-renderer
+youtube.com##a#endpoint[title="Shorts"]
+m.youtube.com##*-grid-shelf*
+youtube.com##[is-responsive-grid="EXTRA_COMPACT"]
+youtube.com## ytd-reel-shelf-renderer.style-scope
+youtube.com###content > ytd-rich-shelf-renderer.style-scope.ytd-rich-section-renderer
+! Hide "Shorts" tab or link in sidebar/topbar
+youtube.com##a[title*="Shorts"]
+m.youtube.com##ytm-media-item:has-text(/(america|scammer|trump)/i)
+! Hide Shorts section in rich shelves
+youtube.com##ytd-rich-shelf-renderer:has(ytd-reel-shelf-renderer)
+m.youtube.com##yt-button-shape:has-text(Sign in)
+m.youtube.com##button:has-text(Sign in)
+youtube.com##div[class*="grid-shelf-view-model" i], div[id*="grid-shelf-view-model" i]
+m.youtube.com##div[class*="grid-shelf-view-model" i], div[id*="grid-shelf-view-model" i]
+m.youtube.com##button:has-text(Open App)
+youtube.com##[class*="grid"][class*="Shelf"]
+youtube.com##[id*="grid"][id*="Shelf"]
