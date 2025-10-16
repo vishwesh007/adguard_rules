@@ -1,8 +1,5 @@
-! Use ExtendedCss-based rules (element hiding emulation) for advanced selectors
-
 youtube.com#?#ytd-reel-shelf-renderer.style-scope
 youtube.com#?#a#endpoint[title="Shorts"]
 youtube.com#?#[is-responsive-grid="EXTRA_COMPACT"]
 youtube.com#?##content > ytd-rich-shelf-renderer.style-scope.ytd-rich-section-renderer
-
 m.youtube.com#?#ytm-media-item:contains(/(america|scammer|trump)/i)
